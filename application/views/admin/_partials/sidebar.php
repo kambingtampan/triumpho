@@ -2,7 +2,7 @@
     <ul class="navbar-nav bg-gradient-main sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('index.php/admin') ?>">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../index.html">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-chart-area"></i>
         </div>

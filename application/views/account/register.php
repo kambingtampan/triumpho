@@ -37,26 +37,30 @@
               <form class="user">
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="First Name">
+                    <input type="text" class="form-control form-control-user" id="name_first" placeholder="First Name" value="<?php echo set_value('name_first') ?>">
                   </div>
                   <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Last Name">
+                    <input type="text" class="form-control form-control-user" id="name_last" placeholder="Last Name" value="<?php echo set_value('name_last'); ?>">
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
+                  <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address" value="<?php echo set_value('email'); ?>">
+                  <p><?php echo form_error('email')?></p>
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                    <input type="password" class="form-control form-control-user" id="password" placeholder="Password" value="<?php echo set_value('password'); ?>">
+                    <p><?php echo form_error('password')?></p>
                   </div>
                   <div class="col-sm-6">
-                    <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
+                    <input type="password" class="form-control form-control-user" id="password_conf" placeholder="Repeat Password" value="<?php echo set_value('password_conf'); ?>">
+                    <p><?php echo form_error('password_conf')?></p>
                   </div>
                 </div>
-                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                <input type="submit" name="btn btn-primary btn-user btn-block" value="register" />
+<!--                 <a href="#" class="btn btn-primary btn-user btn-block">
                   Register Account
-                </a>
+                </a> -->
                 <hr>
                 <a href="index.html" class="btn btn-google btn-user btn-block">
                   <i class="fab fa-google fa-fw"></i> Register with Google

@@ -41,10 +41,10 @@
                   </div>
                   <form class="user">
                     <div class="form-group">
-                      <input type="username" class="form-control form-control-user" id="username" placeholder="Username">
+                      <input type="email" class="form-control form-control-user" id="email" placeholder="Email" value="<?php echo set_value('email') ?>">
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="password" placeholder="Password">
+                      <input type="password" class="form-control form-control-user" id="password" placeholder="Password" value="<?php echo set_value('password') ?>">
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
@@ -52,9 +52,10 @@
                         <label class="custom-control-label" for="customCheck">Remember Me</label>
                       </div>
                     </div>
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
+                    <input type="submit" name="btn btn-primary btn-user btn-block" value="Login" />
+<!--                     <a href="index.html" class="btn btn-primary btn-user btn-block">
                       Login
-                    </a>
+                    </a> -->
                     <hr>
                     <a href="index.html" class="btn btn-google btn-user btn-block">
                       <i class="fab fa-google fa-fw"></i> Login with Google

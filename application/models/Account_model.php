@@ -4,7 +4,7 @@
 	class Account_model extends CI_Model{
 
 		function register($data){
-			$this->db->insert('email',$data);
+			$this->db->insert('users',$data);
 		}
 	}
 ?>

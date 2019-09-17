@@ -1,6 +1,6 @@
 <?php
 
-class Main extends CI_Controller {
+class Landingpage extends CI_Controller {
     public function __construct()
     {
 		parent::__construct();
@@ -9,6 +9,6 @@ class Main extends CI_Controller {
 	public function index()
 	{
         // load view admin/overview.php
-        $this->load->view("admin/main");
+        $this->load->view("landingpage");
 	}
 }

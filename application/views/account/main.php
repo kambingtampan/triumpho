@@ -73,17 +73,17 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Login <b>Triumpho</b></h1>
                   </div>
-<!--                   <div class="form-group">
+                    <div class="form-group">
                         <?php
                           if($this->session->flashdata('Login Info')) {
                             echo '<label class="text small" style="font-color:red">'.$this->session->flashdata('Login Info').'</label>';
                           }
 
-                          if($this->session->flashdata('Logout Info')) {
-                            echo '<label class="text small" style="font-color:red">'.$this->session->flashdata('Logout Info').'</label>';
-                          }
+                          // if($this->session->flashdata('Logout Info')) {
+                          //   echo '<label class="text small" style="font-color:red">'.$this->session->flashdata('Logout Info').'</label>';
+                          // }
                         ?>
-                  </div> -->
+                    </div>
                   <?php echo form_open('Login') ?>
                     <div class="form-group">
                       <input type="text" class="form-control form-control-user" name="username" placeholder="Username" value="<?php echo set_value('username'); ?>" autocomplete='false'>
@@ -114,7 +114,7 @@
                     <a class="small" href="forgot-password.html">Forgot Password?</a>
                   </div>
                   <div class="text-center">
-                    <a class="small" href="<?php echo base_url('index.php/register') ?>">Don't have account? Create now!</a>
+                    <a class="small" href="<?php echo base_url('index.php/register'); ?>">Don't have account? Create now!</a>
                   </div>
                 </div>
               </div>

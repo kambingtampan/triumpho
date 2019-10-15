@@ -18,6 +18,11 @@
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Overview</span></a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('index.php/doc_mgt'); ?>">
+          <i class="fas fa-fw fa-folder-open"></i>
+          <span>Doc. Management</span></a>
+      </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider">

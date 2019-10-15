@@ -24,7 +24,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="<?php echo base_url('css/style.css') ?>" type="text/css" rel="stylesheet" media="screen">
-  <link href="<?php echo base_url('css/triumpho.css') ?>" type="text/css" rel="stylesheet" media="screen">
+<!--   <link href="<?php echo base_url('css/triumpho.css') ?>" type="text/css" rel="stylesheet" media="screen"> -->
 </head>
 
 <body>
@@ -41,12 +41,12 @@
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
 
-      <nav id="nav-menu-container">
+<!--       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#login">Login</a></li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav> --><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
